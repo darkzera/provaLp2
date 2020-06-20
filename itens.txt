@@ -1,0 +1,12 @@
+Flecha do Sono;132;
+Azagaia dos Relâmpagos;1500;
+Flecha do Sono;132;
+Virote Gritante;267;
+Azagaia dos Relâmpagos;1500;
+Flecha Assassina;2282;
+Estilhaçadora;4315;
+Adaga Venenosa;8302;
+Tridente de Comandar Peixes;18650;
+Língua Flamejante;20715;
+Espada da Sutileza;22310;
+Espada dos Planos;22315;
