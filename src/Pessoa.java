@@ -21,14 +21,10 @@ public class Pessoa {
         this.id = randomAlpha(12);
     }
 
-
+    // Função utilizada para fazer o get dos itens.
     public String getItens(){
         String result = "";
         ArrayList<Item> items = this.bag.getItems();
-//        for (Item it : items) {
-//            result += it.getNome() + " " + it.getValue();
-//        }
-
         for (int i = 0; i < this.bag.getItems().size() ; i++) {
             result += this.bag.getItems().get(i).getNome() + " $" + this.bag.getItems().get(i).getValue();
         }

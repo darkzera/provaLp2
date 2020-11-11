@@ -9,7 +9,6 @@ public class Interface {
         mount();
     }
 
-
     public Pessoa[] mount()throws IOException {
         this.pessoas = GerenciadorDeArquivos.lePreenchendoVetorPessoas("pessoa.txt");
         Bag[] bags = GerenciadorDeArquivos.lePreenchendoVetorBag("bag.txt", pessoas);
