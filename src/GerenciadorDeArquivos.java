@@ -126,11 +126,6 @@ public class GerenciadorDeArquivos {
                 if (p != null) {
                     Bag novaBag = new Bag(p);
                     p.setBag(novaBag);
-                    //TODO
-                    // 1 - aqui entra a busca pra achar o usuario de cada uma das mochilas by ID ou NOME (usando o helper)
-                    // 2 - encontrar uma solucao pra qtdidade de item???
-                    // insercao dos itens na mochila  loop
-                    for (int i = 1; i < vetor.length; i++) {
                         novaBag.addItem(new Item(vetor[i], Integer.parseInt(vetor[i+1]))); // fix this gambiarra
                         i++;
                     }

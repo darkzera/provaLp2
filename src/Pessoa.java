@@ -26,19 +26,21 @@ public class Pessoa {
         String result = "";
         ArrayList<Item> items = this.bag.getItems();
         for (int i = 0; i < this.bag.getItems().size() ; i++) {
-            result += this.bag.getItems().get(i).getNome() + "\n $" + this.bag.getItems().get(i).getValue();
+            String name = this.bag.getItems().get(i).getNome();
+            result += String name + "\n $" + this.bag.getItems().get(i).getValue();
         }
-
-        return result;
-    }
-
+        if(result !== null) return result;
+        else {
+         result += "Não há itens";
+         return result;
+        }
+            
+    } 
 
 
     @Override
     public String toString() {
-        return "Pessoa{" +
-                "nome='" + nome + '\'' +
-                "ID ='" + id + '\'' +
+        return "Pessoa{" +  "nome='" + nome + '\'' + "ID ='" + id + '\'' + '\'' + "Bag ='" + bag + '\''
                 '}';
     }
 
