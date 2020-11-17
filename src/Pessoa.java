@@ -26,7 +26,7 @@ public class Pessoa {
         String result = "";
         ArrayList<Item> items = this.bag.getItems();
         for (int i = 0; i < this.bag.getItems().size() ; i++) {
-            result += this.bag.getItems().get(i).getNome() + " $" + this.bag.getItems().get(i).getValue();
+            result += this.bag.getItems().get(i).getNome() + "\n $" + this.bag.getItems().get(i).getValue();
         }
 
         return result;
